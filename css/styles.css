@@ -1,0 +1,251 @@
+:root {
+    --header-color:#ffffff;
+    --main-title-color: #ffffff;
+    --second-title-color: #ffffff;
+    --btn-color: #ffffff;
+    --second-btn-color:#303030;
+    --second-text-on-wite:#303030;
+    --accent-color: #FF6C00;
+    --main-text-on-img:#9DA4BD;
+    --snd-text-on-smg: #rgba(157, 164, 189, 0.6);
+    --main-text-on-wite: #555555;
+}
+body {
+    font-family: 'Open Sans', Tahoma, sans-serif;
+}
+/*________________  general classes _______________ */
+.top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.title {
+    font-family: 'Raleway', Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+.btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+.botom-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap ;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border:0;
+    padding:0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+/*_______________________ HEDER_______________________ */
+.header {
+    background-color: gray;
+}
+.header-navigation ul li,
+.list {
+    list-style:none;
+}
+.header-link {
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+color: var(--header-color);
+}
+.header-link:hover,
+.header-link:focus {
+    color:var(--accent-color);
+}
+.header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33x;
+    letter-spacing: 0.1em;
+    color: var(--header-color);
+}
+.header-btn {
+color: var(--btn-color);
+}
+.header-btn:hover,
+.header-btn:focus {
+color: var(--btn-color);
+background-color: var(--accent-color);
+}
+/*_______________________ MAIN_______________________ */
+/*_______________________ MAIN HERO__________________ */
+
+.hero-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--second-text-on-wite);
+}
+.hero-link:hover,
+.hero-link:focus {
+    color: var(--accent-color);
+}
+.hero-content {
+background-color: var(--second-text-on-wite);
+}
+.hero-top-text {
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+    color: var(--main-title-color);
+}
+.hero-botom-text {
+    color: #9DA4BD;
+}
+/*_______________________ MAIN ABOUT__________________ */
+
+.about-top-text {
+    color: var(--main-text-on-img);
+    }
+
+.about-title {
+     color: var(--second-text-on-wite);
+}
+
+.about-botom-text {
+    color: var(--main-text-on-wite);
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: var(--main-text-on-wite);
+}
+.about-btn {
+color: var(--second-btn-color);
+}
+
+.about-btn:hover,
+.about-btn:focus {
+    color: var(--second-btn-color);
+    background-color: var(--accent-color);
+}
+/*_______________________ MAIN PRICES __________________ */
+.prices-top-text {
+   color: rgba(157, 164, 189, 0.6);
+}
+.prices-title {
+    color:var(--main-title-color);
+}
+.prices-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--main-text-on-img);
+}
+
+.prices-item-text {
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.02em;
+color: var(--main-text-on-img);
+}
+.prices-item-count {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: var(--main-text-on-img);
+}
+.prices-btn {
+    color: var(--btn-color);
+}
+.prices-btn:hover,
+.prices-btn:focus {
+    color:var(--btn-color);
+    background-color: var(--accent-color);
+}
+/*_______________________ MAIN REASONS __________________ */
+
+.reason-item-count {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36x;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--second-text-on-wite);
+}
+
+.reason-item-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+    color: var(--second-text-on-wite);
+}
+.reason-top-text {
+    color: var(--second-text-on-wite);
+}
+
+.reason-title {
+    color:var(--second-text-on-wite);
+}
+
+.reason-botom-text {
+    color: var(--main-text-on-wite);
+}
+/*_______________________ MAIN MASTERS__________________ */
+
+.masters-top-text {
+    color:var(--second-text-on-wite);
+}
+.masters-title {
+    color: var(--second-text-on-wite);
+}
+.master-item-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--second-text-on-wite);
+}
+.master-item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.36;    
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+/*_______________________ Gallery _______________________ */ 
+.gallery-top-text {
+    color: var(--second-text-on-wite)
+}
+
+.gallery-list {
+
+}
+
+.list {}
+
+.gallery-item {}
